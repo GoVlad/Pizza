@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    min-height: 70px;
+    border-bottom: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-home {
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    border-bottom: 2px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px 25px 10px 10px;
+    float: left;
+    border-radius: 50%;
+    border-color: red;
+    padding: 5px;
+    background-color: black;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 0px white;
+}
+
+.header-home a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0px 0px 5px white;
+}
+
+.afla-m-mult {
+    transition: all 1.5s ease-in;
+}
+
+.afla-m-mult:hover {
+    transform: scale(1.2);
+    transition: all 1.5s ease-out;
+}
+
+.home {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-1-6439625512d6a.jpg?crop=1xw:1xh;center,top&resize=1200:*);
+    height: 700px;
+    background-size: cover;
+    box-shadow: 0px 2px 5px black;
+}
+
+.titlu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    color: black;
+    flex-direction: column;
+}
+
+.denumire {
+    font-size: 75px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.slogan {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.afla-m-mult {
+    font-size: 25px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    background-color: rgba(255, 183, 0, 0.53);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+main {
+    min-height: 125vh;
+    margin: 45px;
+}
+
+footer {
+    background-color: black;
+    border-top: 2px solid red;
+    min-height: 60px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer span {
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Dancing script', cursive;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.img-ist {
+    border-color: red;
+    border-radius: 10px;
+}
+
+hr {
+    border-width: 1px;
+}
+
+.rand-1,
+.rand-2,
+.rand-3 {
+    display: flex;
+    text-align: center;
+}
+
+.rand-1 a,
+.rand-2 a,
+.rand-3 a {
+    text-decoration: none;
+    
+}
+
+.rand-1 img,
+.rand-2 img,
+.rand-3 img {
+    width: 450px;
+    height: auto;
+}
+
+.div2 {
+    margin-left: 500px;
+}
+
+.img-reteta {
+    transition: all 2.5s;
+}
+
+.img-reteta:hover {
+    transform: rotate(360deg);
+    transition: all 2.5s;
+}
+
+.contacte,
+.cform,
+.harta-pizza {
+  border: 1px solid rgba(255, 0, 0, 0.497);
+  border-radius: 15px;
+  background-color: rgba(255, 25, 0, 0.849);
+  padding: 5px 5%;
+  height: 325px;
+  margin-bottom: 15px;
+}
+
+.contactele-noastre {
+    display: flex;
+}
+
+
+.cform input,
+.cform textarea {
+  width: 100%;
+  font-size: 15px;
+  font-family: inherit;
+  margin-bottom: 10px;
+  padding: 4px 6px;
+}
+
+.contacte-dan {
+    margin-left: 50%;
+}
+
+.contacte-vlad,
+.contacte-dan {
+    background-color: rgba(255, 0, 0, 0.877);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+}
+
+.contacte-vlad a,
+.contacte-dan a {
+    color: whitesmoke;
+    text-decoration-line: underline;
+}
+
+.contacte h2,
+.cumpara h2 {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.cumpara {
+    display: flex;
+}
+
+.cform,
+.harta-pizza {
+    width: 50%;
+}
+
+.harta-pizza {
+    margin-left: 25px;
+}
+
+.harta {
+    width: 45rem;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.preparare {
+    display: flex;
+}
+
+.ingrediente,
+.mod {
+    width: 45%;
+    border: 2px solid black;
+}
+
+.ingrediente {
+    margin-right: 150px;
+}
+
+.ingrediente summary,
+.mod summary {
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.img-pizza-reteta {
+    width: 55%;
+    height: 450px;
+    padding: 45px;
+}
+
+.m-multe-retete {
+    border: 3px solid red;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.m-multe-retete a {
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: black;
+}
